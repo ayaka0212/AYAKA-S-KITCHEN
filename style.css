@@ -29,28 +29,24 @@ body {
     margin-top: -15vh;
 }
 
-.top h2 {
+.top a {
+    display: block;
     border: solid 3px #cb2e27;
     border-radius: 20px;
     background-color: #cb2e27;
     width: 15vw;
     text-align: center;
     margin-left: 80vw;
-    margin-bottom: 3vw;
+    margin-bottom: 2vw;
     padding: 1vw;
-}
-
-.top h2:hover{
-    background-color: #fffbf6;
-}
-
-h2 a {
-    text-decoration: none;
     color: #fff;
+    text-decoration: none;
+    font-size: 1.5vw;
 }
 
-h2 a:hover{
+.top a:hover {
     color: #cb2e27;
+    background-color: #fff;
 }
 
 .menu {
@@ -67,4 +63,12 @@ h2 a:hover{
     background-color: #fff1e0;
     border-radius: 5vw;
     text-align: center;
+}
+
+.botan {
+    color: #cb2e27;
+    font-size: 1vw;
+    border: solid 3px #cb2e27;
+    border-radius: 90px;
+    /*    position: fixed;*/
 }
