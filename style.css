@@ -66,9 +66,22 @@ body {
 }
 
 .botan {
-    color: #cb2e27;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    background-color: #cb2e27;
+    margin-top: -20vh;
     font-size: 1vw;
-    border: solid 3px #cb2e27;
-    border-radius: 90px;
-    /*    position: fixed;*/
+    border: solid 5px #cb2e27;
+    border-radius: 50%;
+    position: fixed;
+    margin-left: 90vw;
+    text-align: center;
+}
+
+.ja-1{
+    
 }
