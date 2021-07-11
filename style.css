@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #fffbf6;
+    background-color: ##fffbf6;
 }
 
 .top {
@@ -66,7 +66,7 @@ body {
 }
 
 .botan {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 100px;
@@ -82,6 +82,6 @@ body {
     text-align: center;
 }
 
-.ja-1{
+.recipe h2{
     
 }
