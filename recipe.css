@@ -3,16 +3,6 @@
     padding: 0;
 }
 
-.recipe-naiyou {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.recipe-nav{
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .recipe-title h2 {
     font-size: 3vw;
     text-decoration: underline;
@@ -20,16 +10,25 @@
     margin-left: 40vw;
 }
 
-.recipe-title a {
+.recipe-nav ul {
     padding: 1vw;
-    text-decoration: none;
-    font-size: 1.5vw;
-    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    background-color: #cb2e27;
+    list-style-type: none;
 }
 
-.recipe-title a:hover {
-    color: #cb2e27;
-    background-color: #fff;
+.recipe-title a {
+    display: block;
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.recipe-naiyou {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .recipe-zairyou {

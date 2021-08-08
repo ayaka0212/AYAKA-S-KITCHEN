@@ -22,7 +22,13 @@ body {
     border: solid 3px #cb2e27;
     border-radius: 10px;
     text-align: center;
-    top: 45vh;
+    top:45vh;
+}
+
+.top img{
+    margin-left: 73vw;
+    margin-top: -60vh; 
+    margin-bottom: 5vh;
 }
 
 .h2 {
@@ -57,8 +63,13 @@ body {
     justify-content: space-around;
 }
 
+.menu a{
+    text-decoration: none;
+    display: block;
+}
+
 .item {
-    margin: 3vw;
+    padding: 1vw;
     width: 25vw;
     font-size: 2vw;
     background-color: #fff1e0;
