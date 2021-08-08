@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    margin-bottom: 1vh;
 }
 
 body {
@@ -66,6 +67,10 @@ body {
 .menu a{
     text-decoration: none;
     display: block;
+}
+
+.menu p{
+    color: rgba(203, 46, 39, 0.8);
 }
 
 .item {
