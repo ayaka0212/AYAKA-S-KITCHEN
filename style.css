@@ -23,13 +23,20 @@ body {
     border: solid 3px #cb2e27;
     border-radius: 10px;
     text-align: center;
-    top:45vh;
+    top: 45vh;
+    background-color: rgba(253, 225, 225, 0.5);
 }
 
-.top img{
+.rogo img {
     margin-left: 73vw;
-    margin-top: -60vh; 
+    margin-top: -70vh;
     margin-bottom: 5vh;
+}
+
+.photo img{
+    width: 65vw;
+    margin-top: -50vh;
+   margin-left: 5vw;
 }
 
 .h2 {
@@ -64,12 +71,12 @@ body {
     justify-content: space-around;
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
     display: block;
 }
 
-.menu p{
+.menu p {
     color: rgba(203, 46, 39, 0.8);
 }
 
